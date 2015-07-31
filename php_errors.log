@@ -1,0 +1,14 @@
+[21-Jul-2015 16:55:14 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/wp-content/themes/sunspot-child/functions.php on line 11
+[21-Jul-2015 16:55:14 UTC] PHP Stack trace:
+[21-Jul-2015 16:55:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[21-Jul-2015 16:55:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[21-Jul-2015 16:55:14 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[21-Jul-2015 16:55:14 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[21-Jul-2015 16:55:14 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[21-Jul-2015 16:56:28 UTC] PHP Fatal error:  Cannot redeclare theme_enqueue_styles() (previously declared in /home/ubuntu/workspace/wp-content/themes/sunspot-child/functions.php:5) in /home/ubuntu/workspace/wp-content/themes/sunspot-child/functions.php on line 18
+[21-Jul-2015 16:56:28 UTC] PHP Stack trace:
+[21-Jul-2015 16:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[21-Jul-2015 16:56:28 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[21-Jul-2015 16:56:28 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[21-Jul-2015 16:56:28 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[21-Jul-2015 16:56:28 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83

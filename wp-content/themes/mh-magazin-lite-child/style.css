@@ -1,0 +1,221 @@
+/*
+ Theme Name:   mh Magazine lite Child
+ Theme URI:    http://wordpress.com/themes/mh-magazine-lite-child
+ Description:  mh-magazine-lite Child Theme : My child/version theme of the original mh-magazine-lite theme template/layout. 
+ Author:       Amirah Chamble
+ Author URI:   http://example.com
+ Template:     mh-magazine-lite
+ Version:      1.1.4
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         dark, black, orange, tan, yellow, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, rtl-language-support, sticky-post, theme-options, translation-ready
+ Text Domain:  twenty-fifteen-child
+*/
+/* the css below links the old stylesheets & templates from the theme mh-magazine lite.*/
+@import url("../mh-magazine-lite/style.css");
+/*@import url("../mh-magazine-lite/rtl.css");*/
+
+
+
+/**************** All theme changes will be below this line.*****************/
+/**
+
+**/
+/***************This expands the main section of the document****************/
+
+body, html{
+            background: #1E013D ;
+  
+}
+
+body {
+       direction: ltl; 
+ /* unicode-bidi: embed;*/
+}
+
+body{
+    background-image: url("BlueWomanOnTablet.jpg");
+}
+
+.copyright-wrap{
+                background: none;
+}
+
+.header-wrap {
+            background: #51037b;
+    /*First background color in use was #3d037b*/
+}
+
+/*.mh-wrapper{
+    /*background:#3d037b;
+      
+}*/
+
+#main-content{
+             background: #fff;
+             border-radius: 1%;
+     
+}
+
+/******************************************* Navagation bar******************/
+.main-nav {
+          background: #6706ce;
+          text-transform: uppercase;
+          border-bottom: 5px solid #cb06ce;
+}
+
+.main-nav li {
+              float: right;
+              border-left: none;
+              border-right: none;
+}
+
+.main-nav li:hover { 
+                    background: #cb06ce;
+}
+
+.main-nav .current-menu-item {
+                            background: #cb06ce; 
+}
+
+.sb-widget .menu > .menu-item,
+.sb-widget .cat-item { 
+                    padding: 5px 0px; 
+                    padding: 0.375rem 0rem;
+                    border-bottom: 1px solid #cb06ce;
+}
+
+a {
+    color: #6706ce; 
+    text-decoration: none;
+}
+
+/************************* Side bar******************************************/
+
+.widget-title,
+.footer-widget-title {
+                      border-bottom: 3px solid #cb06ce;
+                      padding-bottom: 3px;
+}
+
+/***************************Side bar Widgets*********************************/
+#wp-calendar caption { text-align: center;
+                        color:#fff;
+                        font-weight: bold;
+                        padding: 10px; 
+                        padding: 0.625rem; 
+                        background: #6706ce;
+}
+
+#wp-calendar th,
+#wp-calendar td {
+                padding: 5px 10px; 
+                padding: 0.3125rem 0.625rem; 
+                text-align: center;
+}
+
+#wp-calendar th { 
+                font-weight: bold;
+                color: #fff;
+                background: #cb06ce;
+}
+
+#wp-calendar #prev {
+                    text-align: left; 
+    
+}
+
+/************************Posts/Page Elements*********************************/
+.page-title-top, 
+.subheading-top { 
+                 border-bottom: 3px solid #cb06ce;
+                 }
+                 
+.page-title {    
+            font-size: 24px;
+            font-size: 1.5rem; 
+            color: #fff; 
+            padding: 0px 10px 3px; 
+            padding: 0rem 0.625rem 0.1875rem;
+            margin-bottom: 20px; 
+            margin-bottom: 1.25rem; 
+            background: #6706ce; 
+            display: inline-block; 
+}
+
+/***************************Category/Page Elements******************************/
+
+.cat-desc {
+        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
+        padding: 20px;
+        padding: 1.25rem;
+        background: #f7f7f7;
+        border-top: 3px solid #cb06ce;
+        border-bottom: 3px solid #cb06ce;
+}
+
+/*******************************Comments Section*****************************/
+
+#respond {
+        padding: 10px;
+        padding: 0.625rem; 
+        background: #f6f6f6;
+        border: 1px solid #d7d8d8;
+}
+
+#respond h3 { 
+        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
+}
+
+#commentform p { 
+        margin-bottom: 10px; 
+        margin-bottom: 0.625rem; 
+    
+}
+
+#cancel-comment-reply-link { 
+        font-size: 12px; 
+        font-size: 0.75rem;
+        background: #e64946;
+        padding: 5px; 
+        padding: 0.3125rem;
+        color: #fff;
+}
+
+#cancel-comment-reply-link:hover { 
+        background: #2a2a2a; 
+        text-decoration: none;
+}
+
+.required { 
+        color: #e64946;
+}
+
+/******************************Forms*********************************/
+
+input[type=submit] {
+                    min-width: 75px; 
+                    color: #fff; 
+                    padding: 5px 10px; 
+                    padding: 0.3125rem 0.625rem;
+                    background: #cb06ce; 
+                    text-decoration: none; 
+                    cursor: pointer; 
+                    display: inline-block;
+                    -webkit-transition: all 0.1s linear;
+                    -moz-transition: all 0.1s linear;
+                    transition: all 0.1s linear;
+                    border: 0; 
+                    -webkit-appearance: none;
+}
+
+input[type=text]:hover, 
+textarea:hover {
+                border: 1px solid #cb06ce;
+}
+
+/*input[type=submit]:hover {
+                            background: #cb06ce;
+}*/
